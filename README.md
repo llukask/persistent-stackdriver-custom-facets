@@ -1,2 +1,2 @@
 # Building
-To build the extension execute execute `make`
+To build the extension execute `make`
