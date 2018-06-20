@@ -1,0 +1,14 @@
+{
+
+  "manifest_version": 2,
+  "name": "Persistent Stackdriver Custom Fields",
+  "version": "1.0",
+
+  "description": "Persists custom fields in summary line accross sessions!",
+
+  "content_scripts": [{
+    "matches": ["*://console.cloud.google.com/logs/viewer?*"],
+    "js": ["persist.js"]
+  }]
+
+}
